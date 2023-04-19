@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/binary-com/binary-bot.svg?branch=master)](https://travis-ci.org/binary-com/binary-bot)
 [![Coverage Status](https://coveralls.io/repos/github/binary-com/binary-bot/badge.svg?branch=master)](https://coveralls.io/github/binary-com/binary-bot?branch=master)
 
-# Binary Bot
+# Binary Bot Franklin Otema
 
-Visual automation for binary bot- [bot.binary.com](https://bot.binary.com)
+Visual automation for binary 
 
 Binary Bot uses [Google Blockly](https://developers.google.com/blockly) to provide a puzzle like automation environment to trade using binary.com API version 3.
 ## Pre-installation
@@ -131,33 +131,7 @@ ENDPOINT='wss://ws.binaryws.com/websockets/v3?l=en&app_id=1169' bot bot-example.
 [`speed-test.js`](https://github.com/binary-com/binary-bot/blob/master/cli-examples/speed-test.js)
 
 ## Think you found a bug?
-
-There's a chance that we already know about it and doing our best to fix it. To find out you can search our [GitHub issues](https://github.com/binary-com/binary-bot/issues)
-
-Not satisfied yet? Please create a new issue, and explain to us what is the nature of the problem and how to reproduce [here](https://github.com/binary-com/binary-bot/issues/new)
-
-## We'd love to hear from you
-
-Please send us your inquiries through marketing@binary.com
-
-## Sample Blocks
-
-You can find some example blocks in the [`Examples`](/examples) folder.
-
-**Disclaimer**: _All the files and codes in the above links are intended for educational and informational purposes only. They should not be construed as giving investment advice, and you should not rely on them as your singular factor in making or refraining from making any investment decisions. Binary.com accepts no liability whatsoever for any losses incurred by users in their trading. Binary options trading may incur losses as well as gains._
-
-
-## FAQ
-
-### <a name='q1'> 1. Issue with installing packages</a>
-If you couldnt install binary bot with a different node version, try cleaning npm cache.
- - To clear a cache in npm, we need to run the ```npm cache clean --force``` command in our terminal.
- - Delete cache directory. The default cache directory is ~/.npm on Posix (mac or linux), or %AppData%/npm-cache on Windows.
- - Run ```rm -rf ~/.npm``` 
- - Run ```npm install```
-
-### <a name='q2'> 2. Getting Permission Denied Error on localhost</a>
-Try ```sudo npm start```instead of ```npm start```
+ start```
 
 ### <a name='q3'>3. Cannot access the site</a>
  Make sure to use HTTP instead of HTTPS: https://localbot.binary.sx/bot.html  => http://localbot.binary.sx/bot.html
